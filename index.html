@@ -1,15 +1,88 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta chartset="UTF-8"/>
+        <meta chartset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>Oscar Mendez Cabrera</title>
+
+       <link rel="stylesheet" href="style.css">
+       
     </head>
 
     <body>
+
         <header>
             <h1>Oscar Mendez Cabrera</h1>
-            <p>artista visual!</p>
-            <img src="https://images.cdn3.buscalibre.com/fit-in/360x360/6c/65/6c6506b5b44da398a61c58635e07b8d2.jpg" width="80">
+            <h2>Artista Visual</h2>
+            <nav>
+                <a href="#statement">Statement</a>
+                <a href="#expos">Expos</a>
+                <a href="#contacto">Contacto</a>
+                
+            </nav>
         </header>
-    </body>
+
+    <section id="imagenportada"></section>
+   
+    <section>
+         <img src="pintura1.PNG" height="300px">
+    </section>
+
+
+    <section id="statement" >
+        <h2>Statement</h2>
+        <p>Soy un artista visual que
+busca desarrollarse en el
+medio artístico nacional e
+internacional,
+investigando desde la
+pintura temas como lo son
+la ciudad y el cuerpo, así
+como profundizar en el
+lenguaje de la pintura y
+sus posibilidades formales</p>
+
+    </section>
+   
+
+
+    <section id="expos">
+
+       
+        <h2>Exposiciones colectivas.</h2>
+        <ul>
+            <li>VIVENCIAS. Casa de Cultura Santa Maria la Ribera. CDMX. Junio 2025 </li>
+            <li>MUESTRA ARTISTICA MAEM. Sinestesia Espacio Lóbrego, CDMX, Agosto 2024</li>
+            <li>EL ARTE DE LA FAD EN LA ENAH.Escuela Nacional de Antropología e Historia,CDMX, Octubre 2023</li>
+        </ul>
+
+       
+
+    </section>
+
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>@ocamende</p>
+        <p>osaroncabrera@gmail.com</p>
+        <p>55 64957530</p>
+
+        <form>
+            <label for="nombre">nombre: </label>
+            <input type="text" id="nombre" placeholder="escribe tu nombre" required>
+
+            <label for="correo">correo: </label>
+            <input type="email" id="correo" placeholder="tu@ejemplo.com" required>
+
+            <label for="mensaje">mensaje: </label>
+            <textarea name="mensaje" id="mensaje" rows="4" placeholder="escribe tu mensaje" required></textarea>
+
+            <button>enviar</button>
+
+        </form>
+
+    </section>
+
+     </body>
+   
 </html>

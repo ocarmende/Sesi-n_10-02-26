@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(233, 211, 183);
+    color: rgb(1, 79, 53);
+}
+
+
+header{
+    text-align: center;
+}
+
+h1, h2{
+     font-family: monospace;
+}
+
+p{
+    font-family: 'Lucida Sans';
+}
+
+#statement{
+   width: 900px;
+}    
+
+#imagenportada{
+    width: max-content; 
+    height: 300px;
+
+    background-image: url("pintura1.PNG");
+}
